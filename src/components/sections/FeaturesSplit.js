@@ -50,8 +50,8 @@ const FeaturesSplit = ({
   );
 
   const sectionHeader = {
-    title: 'Workflow that just works',
-    paragraph: 'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum — semper quis lectus nulla at volutpat diam ut venenatis.'
+    title: 'Projects',
+    paragraph: 'Below are some of the projects I am working on. Click on the images to go to the corresponding github repository'
   };
 
   return (
@@ -67,13 +67,14 @@ const FeaturesSplit = ({
             <div className="split-item">
               <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
                 <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-                  Lightning fast workflow
+                  Governor's Honors Program
                   </div>
                 <h3 className="mt-0 mb-12">
-                  Data-driven insights
+                  Creeper Foil
                   </h3>
                 <p className="m-0">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua — Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                  Creeper Foil is designed to prevent drink spiking. It is a lockable cap that can be placed on top of cups. When attatched, the drinking channel is opened only when an RFID chip is sensed by the sensor and the whole cap is unlocked only when the RFID
+                  is sensed and a button is pressed. The cap also detects sudden movements and based on this notifies the user possible tamperings with a change in LED as well as a notification to a compatible app. 
                   </p>
               </div>
               <div className={
@@ -82,24 +83,25 @@ const FeaturesSplit = ({
                   imageFill && 'split-item-image-fill'
                 )}
                 data-reveal-container=".split-item">
+                <a href="https://github.com/shriyamahakala/CreeperFoil">
                 <Image
-                  src={require('./../../assets/images/features-split-image-01.png')}
+                  src={require('./../../assets/images/creeperfoil.PNG')}
                   alt="Features split 01"
                   width={528}
-                  height={396} />
+                  height={396} /></a>
               </div>
             </div>
 
             <div className="split-item">
               <div className="split-item-content center-content-mobile reveal-from-right" data-reveal-container=".split-item">
                 <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-                  Lightning fast workflow
+                  Emory University
                   </div>
                 <h3 className="mt-0 mb-12">
-                  Data-driven insights
+                  Prostate Cancer Grading Deep Learning Model
                   </h3>
                 <p className="m-0">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua — Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                   Prostate Cancer is the second most common and deadly cancer in America. This model predicts the ISUP grade, which indicated the severity of the prostate cancer, for a prostate biopsy to improve the assessment of prostate cancer. It was trained on a dataset of over 11000 biopsies.
                   </p>
               </div>
               <div className={

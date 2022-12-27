@@ -14,10 +14,12 @@
 
 .container {
 	max-width: $container--width + ( $container--padding__desktop * 2 );
+	padding: 150px;
 }
 
 .container-sm {
 	max-width: $container--width-sm + ( $container--padding__desktop * 2 );
+	height: 100px;
 }
 
 .container-xs {
