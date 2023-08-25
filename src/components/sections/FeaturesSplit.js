@@ -73,8 +73,11 @@ const FeaturesSplit = ({
                   Creeper Foil
                   </h3>
                 <p className="m-0">
-                  Creeper Foil is designed to prevent drink spiking. It is a lockable cap that can be placed on top of cups. When attatched, the drinking channel is opened only when an RFID chip is sensed by the sensor and the whole cap is unlocked only when the RFID
-                  is sensed and a button is pressed. The cap also detects sudden movements and based on this notifies the user possible tamperings with a change in LED as well as a notification to a compatible app. 
+                  Creeper Foil is designed to prevent drink spiking. It is a lockable cap that can be placed on top of cups. 
+                  When attatched, the drinking channel is opened only when an RFID chip is sensed by the sensor and the whole 
+                  cap is unlocked only when the RFID is sensed and a button is pressed. The cap also detects sudden movements 
+                  and based on this notifies the user of possible tamperings with a change in LED as well as a notification to
+                  a compatible app connected via bluetooth. 
                   <a href="https://github.com/shriyamahakala/CreeperFoil">
                   View code here
                   </a>
@@ -87,7 +90,7 @@ const FeaturesSplit = ({
                 )}
                 data-reveal-container=".split-item">
                 {/* <a href="https://github.com/shriyamahakala/CreeperFoil"> */}
-                <iframe width="528" height="396" src="https://www.youtube.com/embed/tgbNymZ7vqY">
+                <iframe width="528" height="396" src="https://www.youtube.com/embed/c9_oaQiL7Pw?si=otTyFocPEGbMzSF1">
                 </iframe>
                 {/* <Image
                   src={require('./../../assets/images/creeperfoil.PNG')}
@@ -147,8 +150,8 @@ const FeaturesSplit = ({
                 data-reveal-container=".split-item">
                 <a href="https://github.com/shriyamahakala/stockwatchlist">
                 <Image
-                  src={require('./../../assets/images/LearnMyth.PNG')}
-                  alt="Features split 02"
+                  src={require('./../../assets/images/features-split-image-03.png')}
+                  alt="Features split 03"
                   width={528}
                   height={396} />
                   </a>
