@@ -65,7 +65,7 @@ const Hero = ({
             </h1>
             <div className="container-sm">
               <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="400">
-                I am interested in computational biology but enjoy machine learning and other interdisplinary studies as well.
+                I am a computer science student at Columbia University. 
                 </p>
               <div className="reveal-from-bottom" data-reveal-delay="600">
                 <ButtonGroup>
