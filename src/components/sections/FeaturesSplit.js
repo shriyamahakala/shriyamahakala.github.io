@@ -64,6 +64,36 @@ const FeaturesSplit = ({
           <SectionHeader data={sectionHeader} className="center-content" />
           <div className={splitClasses}>
 
+          <div className="split-item">
+              <div className="split-item-content center-content-mobile reveal-from-right" data-reveal-container=".split-item">
+                <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
+                  Personal Project
+                  </div>
+                <h3 className="mt-0 mb-12">
+                  DJ App
+                  </h3>
+                <p className="m-0">
+                This is a project to help people DJ at parties. It uses the Spotify API to recommend songs based on the user requests and DJ input.
+                To recommend songs, I used an incremental learning logistic regression function and the spotify API. 
+                I created the interactive DJ interface with React.js and Flask.
+                  </p>
+              </div>
+              <div className={
+                classNames(
+                  'split-item-image center-content-mobile reveal-from-bottom',
+                  imageFill && 'split-item-image-fill'
+                )}
+                data-reveal-container=".split-item">
+                  <a href="https://github.com/shriyamahakala/djproject">
+                <Image
+                  src={require('./../../assets/images/features-split-image-03.png')}
+                  alt="Features split 02"
+                  width={528}
+                  height={396} />
+                  </a>
+              </div>
+            </div>
+
             <div className="split-item">
               <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
                 <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
@@ -121,7 +151,7 @@ const FeaturesSplit = ({
                 data-reveal-container=".split-item">
                   <a href="https://github.com/shriyamahakala/prostatecancergrading">
                 <Image
-                  src={require('./../../assets/images/features-split-image-02.png')}
+                  src={require('./../../assets/images/features-split-image-01.png')}
                   alt="Features split 02"
                   width={528}
                   height={396} />
@@ -150,7 +180,7 @@ const FeaturesSplit = ({
                 data-reveal-container=".split-item">
                 <a href="https://github.com/shriyamahakala/stockwatchlist">
                 <Image
-                  src={require('./../../assets/images/features-split-image-03.png')}
+                  src={require('./../../assets/images/features-split-image-02.png')}
                   alt="Features split 03"
                   width={528}
                   height={396} />
