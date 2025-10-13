@@ -65,6 +65,37 @@ const FeaturesSplit = ({
           <div className={splitClasses}>
 
           <div className="split-item">
+              <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
+                <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
+                  Personal Project
+                  </div>
+                <h3 className="mt-0 mb-12">
+                  Instagram Spectral Cluseting 
+                  </h3>
+                <p className="m-0">
+                  I constructed a 1,000+ node graph from raw Instagram follower data and implemented an unsupervised learning technique called spectral clustering (Shi–Malik) from scratch. 
+                  Using t-SNE visualizations, the project surfaces hidden communities and social contexts. 
+                  The Jupyter notebook explains the math, shows the Python workflow, and highlights key patterns in the clusters.
+
+                  </p>
+              </div>
+              <div className={
+                classNames(
+                  'split-item-image center-content-mobile reveal-from-bottom',
+                  imageFill && 'split-item-image-fill'
+                )}
+                data-reveal-container=".split-item">
+                <a href="https://github.com/shriyamahakala/instagram_spectral_clustering">
+                <Image
+                  src={require('./../../assets/images/features-split-image-02.png')}
+                  alt="Features split 01"
+                  width={528}
+                  height={396} />
+                  </a>
+              </div>
+            </div>
+
+          <div className="split-item">
               <div className="split-item-content center-content-mobile reveal-from-right" data-reveal-container=".split-item">
                 <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
                   Personal Project
